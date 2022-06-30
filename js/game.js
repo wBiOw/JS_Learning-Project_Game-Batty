@@ -29,7 +29,7 @@ document.addEventListener("keydown", keyDownMovePlatform);
 document.addEventListener("keyup", keyUpMovePlatform);
 document.querySelector("#yesNewGameBtn").onclick = newGame;
 document.querySelector("#noNewGameBtn").onclick = function () {
-    close();
+    close(window);
 }
 
 function fillXYStatBricks(array, widthOne, hightOne, widthMax, row) {
