@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game on JS</title>
+    <link rel="stylesheet" href="css/index.css">
+</head>
+
+<body>
+    <header>
+        <p>
+            Game "Batty" on JS
+        </p>
+    </header>
+
+    <canvas id="gameCanvas">
+        <p>
+            Sorry <code>&lt;canvas&gt;</code> not supported!
+        </p>
+    </canvas>
+    <div class="Message" id="message">
+        <div id="gameOver">
+            <p>Game Over !!!</p>
+            <p>Start New Game ?</p>
+        </div>
+        <div id="gameWin">
+            <p>You Win <nobr>Congratulation !!!</nobr></p>
+            <img src="congratulations-congrats.gif" alt="Congratulation">
+            <p>Start New Game ?</p>
+        </div>
+        <button id="yesNewGameBtn">Yes</button>
+        <button id="noNewGameBtn">No</button>
+    </div>
+    </div>
+    <script src="js/game.js"></script>
+</body>
+
+</html>

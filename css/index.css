@@ -1,0 +1,76 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 2vw;
+}
+
+header {
+    text-align: center;
+    padding: 1vw 0;
+    color: blue;
+    background-color: aqua;
+    margin: auto;
+    user-select: none;
+    min-width: 200px;
+    width: 60%
+
+}
+
+canvas {
+    display: block;
+    background: rgb(200, 197, 197);
+    margin: auto;
+    width: 60%
+}
+
+.Message {
+    position: absolute;
+    top: 7vw;
+    left: 35%;
+    width: 30%;
+    background-color: rgba(144, 174, 203, 0.793);
+    padding: 1vw;
+    color: bisque;
+    user-select: none;
+    text-align: center;
+    border-radius: 1vw;
+    border: none;
+}
+
+
+img {
+    width: 100%;
+}
+
+.Message button {
+    margin: 1vw 1vw 0 1vw;
+    min-width: 10vw;
+    border-radius: 2vw;
+    background-color: rgb(149, 203, 203);  
+    border: none;
+}
+
+.Message button:hover {
+    background-color: rgb(0, 110, 255);  
+    cursor: pointer;
+}
+
+
+#message {
+    display: none;
+}
+
+#gameOver {
+    display: none;
+    background-color: brown;
+    border-radius: 1vw;
+    border: none;
+}
+
+#gameWin {
+    display: none;
+    background-color: green;
+    border-radius: 1vw;
+    border: none;
+}
